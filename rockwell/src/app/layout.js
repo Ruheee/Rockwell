@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar";
-import "./globals.css"
+
 
 export const metadata = {
   title: "Rockwell Security",

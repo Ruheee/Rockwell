@@ -1,23 +1,23 @@
 .container {
 display: flex;
 justify-content: center;
-margin: 40px 0;
 font-family: 'Archivo', sans-serif;
 }
 .imageEdit{
 border-radius: 16px;
-box-sizing: content-box;
 height: 680px;
-width: 600px;
+width: 585px;
 margin-left: 100px;
+margin-bottom: 100px;
 }
 .card {
+height: 555px;
 border-radius: 16px;
 padding: 36px;
 width: 520px;
 display: flex;
 flex-direction: column;
-
+margin-top: 50px;
 }
 .heading {
 font-family: 'Archivo', sans-serif;

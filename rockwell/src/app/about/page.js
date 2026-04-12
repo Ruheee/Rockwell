@@ -1,11 +1,12 @@
-import AboutTop from "../components/aboutTop";
-import AboutBottom from "../components/aboutBottom";
+import AboutOne from "../components/aboutOne";
+import AboutTwo from "../components/aboutTwo";
+import AboutThree from "../components/aboutThree";
 export default function AboutPage() {
-return (
-
-<div>
-<AboutTop />
-<AboutBottom />
-</div>
-);
+  return (
+    <div>
+      <AboutOne />
+      <AboutTwo />
+      <AboutThree />
+    </div>
+  );
 }
