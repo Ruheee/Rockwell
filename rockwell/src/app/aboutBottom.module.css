@@ -1,33 +1,38 @@
 .container {
-background-image: url('/construction.png');
-justify-content: flex-end;
-padding: 60px 80px;
+display: flex;
+justify-content: center;
+margin: 40px 0;
+font-family: 'Archivo', sans-serif;
+}
+.imageEdit{
+border-radius: 16px;
+box-sizing: content-box;
+height: 680px;
+width: 600px;
+margin-left: 100px;
 }
 .card {
-background-color: #fff;
 border-radius: 16px;
 padding: 36px;
-width: 320px;
+width: 520px;
 display: flex;
 flex-direction: column;
-gap: 14px;
-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+
 }
 .heading {
 font-family: 'Archivo', sans-serif;
-font-size: 24px;
+font-size: 28px;
 font-weight: 900;
 color: #111;
 line-height: 1.2;
-margin: 0;
 }
 .paragraph {
-
 font-family: 'Archivo', sans-serif;
-font-size: 12px;
+font-size: 16px;
 color: #444;
 line-height: 1.7;
-margin: 0;
+margin: 15px 0 0 0;
+font-weight: 600;
 }
 .contactBtn {
 background-color: #e8212a;
@@ -36,10 +41,10 @@ border: none;
 padding: 12px 32px;
 border-radius: 6px;
 font-size: 14px;
-font-weight: 600;
+font-weight: 900;
 cursor: pointer;
-width: fit-content;
 transition: all 0.2s;
+margin-top: 20px;
 }
 .contactBtn:hover {
 background-color: #c0171f;
