@@ -1,0 +1,45 @@
+.container {
+display: flex;
+flex-direction: row;
+padding: 40px 40px;
+gap: 40px;
+max-width: 1200px;
+margin: 0 auto;
+}
+.leftImage {
+flex: 0 0 40%;
+}
+.mainImage {
+width: 100%;
+height: 680px;
+object-fit: cover;
+border-radius: 12px;
+display: block;
+}
+.rightContent {
+margin-top: 120px;
+}
+.tagline {
+font-family: 'Archivo', sans-serif;
+font-size: 18px;
+color: #777;
+font-weight: 800;
+margin-bottom: 10px;
+}
+.heading {
+width: 60%;
+font-family: 'Archivo', sans-serif;
+font-size: 28px;
+font-weight: 900;
+color: #111;
+line-height: 1.2;
+margin: 0 0 8px 0;
+}
+.paragraph {
+font-family: 'Archivo', sans-serif;
+font-size: 16px;
+color: #444;
+line-height: 1.7;
+margin: 15px 0 0 0;
+font-weight: 600;
+}

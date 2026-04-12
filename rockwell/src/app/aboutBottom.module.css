@@ -1,0 +1,49 @@
+.container {
+background-image: url('/construction.png');
+justify-content: flex-end;
+padding: 60px 80px;
+}
+.card {
+background-color: #fff;
+border-radius: 16px;
+padding: 36px;
+width: 320px;
+display: flex;
+flex-direction: column;
+gap: 14px;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+.heading {
+font-family: 'Archivo', sans-serif;
+font-size: 24px;
+font-weight: 900;
+color: #111;
+line-height: 1.2;
+margin: 0;
+}
+.paragraph {
+
+font-family: 'Archivo', sans-serif;
+font-size: 12px;
+color: #444;
+line-height: 1.7;
+margin: 0;
+}
+.contactBtn {
+background-color: #e8212a;
+color: #fff;
+border: none;
+padding: 12px 32px;
+border-radius: 6px;
+font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+width: fit-content;
+transition: all 0.2s;
+}
+.contactBtn:hover {
+background-color: #c0171f;
+}
+.contactBtn:active {
+transform: scale(0.95);
+}

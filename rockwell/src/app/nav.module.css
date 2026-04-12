@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar {
+  /* Apply font via class in JSX if using next/font */
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  height: 50px;
+  width: auto;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+  font-weight: 800;
+  transition: color 0.2s;
+}
+
+.link:hover {
+    color: #e8212a;
+}
+
+.link:focus {
+    color: #e8212a;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone {
+  font-size: 16px;
+  color: #333;
+  font-weight: 800;
+}
+
+.quoteBtn {
+  background-color: #e8212a;
+  color: #fff;
+  border: none;
+  padding: 15px 22px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
