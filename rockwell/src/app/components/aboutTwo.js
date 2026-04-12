@@ -6,7 +6,7 @@ export default function AboutBottom() {
 
       <div className={styles.card}>
         <h2 className={styles.heading}>
-          Built on Hardwork, Honesty, and Commitment to getting the job done
+          Focused on Hardwork, Honesty, and Commitment to getting the job done
         </h2>
         <p className={styles.paragraph}>
           Rockwell Security has built a reputation on getting the job done right the first time. With years of hands-on experience, we take a straightforward approach to every project — showing up, doing the work, and delivering results you can count on.
