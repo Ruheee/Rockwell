@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .navbar {
-  /* Apply font via class in JSX if using next/font */
   font-family: 'Inter', sans-serif;
   display: flex;
   align-items: center;
@@ -40,11 +39,15 @@
 }
 
 .link:hover {
-    color: #e8212a;
+  color: #e8212a;
 }
 
 .link:focus {
-    color: #e8212a;
+  color: #e8212a;
+}
+
+.active {
+  color: #e8212a;
 }
 
 .navRight {
@@ -71,16 +74,117 @@
   text-decoration: none;
 }
 
+.quoteBtn:hover {
+  background-color: #c41920;
+}
+
+/* ── Hamburger (hidden on desktop) ── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1100;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #222;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* ── Tablet (max 1024px) ── */
 @media (max-width: 1024px) {
-.grid {
-grid-template-columns: repeat(2, 1fr);
+  .navbar {
+    padding: 12px 24px;
+  }
+
+  .navLinks {
+    gap: 20px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+
+  .phone {
+    font-size: 14px;
+  }
+
+  .quoteBtn {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
 }
-}
-@media (max-width: 600px) {
-.grid {
-grid-template-columns: 1fr;
-}
-.heading {
-font-size: 26px;
-}
+
+/* ── Mobile (max 768px) ── */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 12px 20px;
+    flex-wrap: wrap;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 8px 0;
+    border-top: 1px solid #eee;
+    order: 3;
+  }
+
+  .navLinks.open {
+    display: flex;
+  }
+
+  .navLinks li {
+    width: 100%;
+  }
+
+  .link {
+    display: block;
+    padding: 12px 20px;
+    font-size: 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .navRight {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+    padding: 12px 20px 16px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    order: 4;
+  }
+
+  .navRight.open {
+    display: flex;
+  }
+
+  .phone {
+    font-size: 15px;
+  }
+
+  .quoteBtn {
+    width: 100%;
+    text-align: center;
+    padding: 13px 16px;
+  }
 }

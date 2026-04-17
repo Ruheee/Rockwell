@@ -47,14 +47,14 @@ const services = [
       "Remote access monitoring and control",
     ],
   },
-  {
-    image: "/future.png",
-    alt: "Future-ready security solutions for businesses in Toronto",
-    title: "Future-Ready Solutions",
-    description:
-      "Our installations are designed to scale with your business, ensuring your cabling infrastructure won't need constant replacement as technology evolves.",
-    bullets: [],
-  },
+  // {
+  //   image: "/future.png",
+  //   alt: "Future-ready security solutions for businesses in Toronto",
+  //   title: "Future-Ready Solutions",
+  //   description:
+  //     "Our installations are designed to scale with your business, ensuring your cabling infrastructure won't need constant replacement as technology evolves.",
+  //   bullets: [],
+  // },
 ];
 
 export default function Services() {

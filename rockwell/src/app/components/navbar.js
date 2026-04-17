@@ -1,7 +1,14 @@
+'use client';
+
+import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import Link from "next/link";
 import styles from "../nav.module.css";
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
   return (
     <nav className={styles.navbar}>
       {/* Logo */}
@@ -11,27 +18,61 @@ export default function Navbar() {
         </Link>
       </div>
 
+      {/* Hamburger */}
+      <button
+        className={styles.hamburger}
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label="Toggle menu"
+      >
+        <span />
+        <span />
+        <span />
+      </button>
+
       {/* Nav Links */}
-      <ul className={styles.navLinks}>
+      <ul className={`${styles.navLinks} ${isOpen ? styles.open : ''}`}>
         <li>
-          <Link href="/" className={styles.link}>Home</Link>
+          <Link
+            href="/"
+            className={`${styles.link} ${pathname === '/' ? styles.active : ''}`}
+            onClick={() => setIsOpen(false)}
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <Link href="/about" className={styles.link}>About us</Link>
+          <Link
+            href="/about"
+            className={`${styles.link} ${pathname === '/about' ? styles.active : ''}`}
+            onClick={() => setIsOpen(false)}
+          >
+            About us
+          </Link>
         </li>
         <li>
-          <Link href="/services" className={styles.link}>Services</Link>
+          <Link
+            href="/services"
+            className={`${styles.link} ${pathname.startsWith('/services') ? styles.active : ''}`}
+            onClick={() => setIsOpen(false)}
+          >
+            Services
+          </Link>
         </li>
         <li>
-          <Link href="/projects" className={styles.link}>Projects</Link>
+          <Link
+            href="/projects"
+            className={`${styles.link} ${pathname.startsWith('/projects') ? styles.active : ''}`}
+            onClick={() => setIsOpen(false)}
+          >
+            Projects
+          </Link>
         </li>
       </ul>
 
       {/* Right Side */}
-      <div className={styles.navRight}>
+      <div className={`${styles.navRight} ${isOpen ? styles.open : ''}`}>
         <span className={styles.phone}>647-821-2998</span>
-
-        <Link href="/contact" className={styles.quoteBtn}>
+        <Link href="/contact" className={styles.quoteBtn} onClick={() => setIsOpen(false)}>
           Get a quote
         </Link>
       </div>
