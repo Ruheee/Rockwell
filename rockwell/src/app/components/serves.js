@@ -9,9 +9,9 @@ export const metadata = {
 
 const services = [
   {
-    image: "/images/services-cabling-design.jpg",
+    image: "/Install.png",
     alt: "Cabling infrastructure design for commercial spaces in Toronto",
-    title: "Cabling Infrastructure Design",
+    title: "Structured Cabling design and installation",
     description: "Our team creates detailed cabling layouts that include:",
     bullets: [
       "Structured floor space and cabinet layouts",
@@ -22,28 +22,33 @@ const services = [
     ],
   },
   {
-    image: "/images/services-installation.jpg",
+    image: "/Internet.png",
     alt: "Professional network cabling installation in retail store Toronto",
-    title: "Installation & Implementation",
+    title: "Internet Networking Infrastructure",
     description:
       "Our field technicians are trained in multiple cabling formats, including Cat6, Cat6a, and fiberoptic cabling. We handle:",
     bullets: [
-      "Data and voice cabling",
-      "Fiber backbone installation (single and multimode)",
-      "Wireless point-to-point and in-building RF distribution",
-      "Boardroom cabling and AV integration",
+      "Network design & planning",
+      "Router and switch installation",
+      "Wired (Ethernet) and wireless (Wi-Fi) setup",
+      "Network monitoring and maintenance",
     ],
   },
   {
-    image: "/images/services-cable-management.jpg",
+    image: "/access.jpg",
     alt: "Cable management and certification services Toronto",
-    title: "Cable Management & Certification",
+    title: "Access Control",
     description:
       "We provide complete rack, cabinet, and cable management systems to keep your infrastructure neat and accessible. All installations are tested, certified, and documented for compliance and future reference.",
-    bullets: [],
+    bullets: [
+      "Keycard and fob entry systems",
+      "Door controller installation and programming",
+      "User permission management",
+      "Remote access monitoring and control",
+    ],
   },
   {
-    image: "/images/services-future-ready.jpg",
+    image: "/future.png",
     alt: "Future-ready security solutions for businesses in Toronto",
     title: "Future-Ready Solutions",
     description:
@@ -57,13 +62,16 @@ export default function Services() {
     <main className={styles.main}>
       {/* SEO Header Section */}
       <section className={styles.header}>
-        <h1 className={styles.heading}>Network Cabling Services in Toronto</h1>
+        <h1 className={styles.heading}>
+          Commercial and Residential Data and Security Services
+        </h1>
         <p className={styles.subtext}>
           Your business runs on reliable connectivity. Without the right cabling
           infrastructure, every system you rely on — internet, POS, security,
           communication — slows down or shuts down. At Rockwell Security
-          Networks Inc., we provide professional network cabling services for
-          malls, retail, and commercial properties across Toronto and the GTA.
+          Networks Inc., we provide professional services for everything from
+          residential to commercial. We do malls, retail, commercial properties,
+          and homes across Toronto and the GTA.
         </p>
       </section>
       {/* Service Cards Grid */}

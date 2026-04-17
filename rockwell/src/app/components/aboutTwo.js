@@ -21,7 +21,6 @@ export default function AboutBottom() {
           src="/Construction.png"
           alt="Construction site"
           className={styles.imageEdit}
-          
         />
     </section>
   );

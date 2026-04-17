@@ -86,13 +86,9 @@ gap: 6px;
 .bulletItem {
 font-family: 'Archivo', sans-serif;
 font-size: 12px;
-color: #e8212a;
 line-height: 1.6;
 }
 
-.bulletItem::marker {
-color: #e8212a;
-}
 /* Responsive */
 @media (max-width: 1024px) {
 .grid {
