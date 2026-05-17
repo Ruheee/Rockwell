@@ -1,0 +1,271 @@
+/* contact.module.css */
+
+/* ── Hero ── */
+.page {
+  font-family: 'Archivo', sans-serif;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+    border-radius: 20px;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.heroTag {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #e8212a;
+  margin: 0 0 10px 0;
+}
+
+.heroHeading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  margin: 0;
+  line-height: 1.1;
+}
+
+/* ── Main Content ── */
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+/* ── Info Column ── */
+.infoCol {
+  flex: 0 0 38%;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoHeading {
+  font-size: 28px;
+  font-weight: 900;
+  color: #111;
+  line-height: 1.2;
+  margin: 0 0 16px 0;
+}
+
+.infoText {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  font-weight: 600;
+  margin: 0 0 36px 0;
+}
+
+.infoCards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.infoCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.infoIcon {
+  background-color: #e8212a;
+  border-radius: 100px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.infoIconImg {
+  height: 22px;
+  width: 22px;
+  filter: brightness(0) invert(1);
+}
+
+.infoCardTitle {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #999;
+  margin: 0 0 4px 0;
+}
+
+.infoCardValue {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+
+/* ── Form Column ── */
+.formCol {
+  flex: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formRow {
+  display: flex;
+  gap: 20px;
+}
+
+.formRow .formGroup {
+  flex: 1;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 800;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Archivo', sans-serif;
+  color: #111;
+  background: #fafafa;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #e8212a;
+  background: #fff;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.submitBtn {
+  background-color: #e8212a;
+  color: #fff;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: 'Archivo', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.15s;
+  align-self: flex-start;
+}
+
+.submitBtn:hover {
+  background-color: #c0171f;
+}
+
+.submitBtn:active {
+  transform: scale(0.97);
+}
+
+.submitBtn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.successMsg {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a7f3c;
+  margin: 0;
+}
+
+.errorMsg {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e8212a;
+  margin: 0;
+}
+
+/* ── Tablet (max 1024px) ── */
+@media (max-width: 1024px) {
+  .content {
+    gap: 40px;
+    padding: 60px 24px;
+  }
+
+  .heroHeading {
+    font-size: 38px;
+  }
+
+  .infoCol {
+    flex: 0 0 42%;
+  }
+}
+
+/* ── Mobile (max 768px) ── */
+@media (max-width: 768px) {
+  .hero {
+    height: 220px;
+  }
+
+  .heroHeading {
+    font-size: 32px;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 48px;
+    padding: 48px 20px;
+  }
+
+  .infoCol {
+    flex: none;
+    width: 100%;
+  }
+
+  .formRow {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .submitBtn {
+    width: 100%;
+    text-align: center;
+  }
+}
