@@ -71,9 +71,9 @@ export default function Navbar() {
 
       {/* Right Side */}
       <div className={`${styles.navRight} ${isOpen ? styles.open : ''}`}>
-        <span className={styles.phone}>647-945-0520</span>
+        <span className={styles.phone}>📞 647-945-0520</span>
         <Link href="/contact" className={styles.quoteBtn} onClick={() => setIsOpen(false)}>
-          Get a quote
+          Contact Us
         </Link>
       </div>
     </nav>
