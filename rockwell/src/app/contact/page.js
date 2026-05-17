@@ -14,7 +14,7 @@ export default function ContactPage() {
 
     try {
       await emailjs.sendForm(
-        'service_a5sd8bt',   // replace with your EmailJS Service ID
+        'service_hboi48j',   // replace with your EmailJS Service ID
         'template_kdq4osh',  // replace with your EmailJS Template ID
         form.current,
         'arf-Oa_lc-bX5uylp'    // replace with your EmailJS Public Key
