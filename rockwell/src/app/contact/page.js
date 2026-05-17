@@ -57,7 +57,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className={styles.infoCardTitle}>Phone</p>
-                <p className={styles.infoCardValue}>647-821-2998</p>
+                <p className={styles.infoCardValue}>647-945-0520</p>
               </div>
             </div>
 
