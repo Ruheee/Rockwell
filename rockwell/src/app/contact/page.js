@@ -67,7 +67,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className={styles.infoCardTitle}>Email</p>
-                <p className={styles.infoCardValue}>info@rockwellsecurity.ca</p>
+                <p className={styles.infoCardValue}>info@rockwellsecuritynetworks.ca</p>
               </div>
             </div>
 

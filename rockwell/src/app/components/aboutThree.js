@@ -6,7 +6,7 @@ export default function AboutThree() {
         <img src="/store.png" className={styles.cardImage} />
         <div className={styles.cardText}>
           <h1 className={styles.heading}>
-            Residential, Commercial <br />
+            Residential and Commercial <br />
             Experience
           </h1>
           <p className={styles.paragraph}>

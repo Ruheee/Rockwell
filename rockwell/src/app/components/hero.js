@@ -10,12 +10,12 @@ export default function Hero() {
       {/* Content */}
       <div className={styles.content}>
         <h1 className={styles.heading}>
-          SOLVING ALL YOUR <br /> NEEDS TO FEEL SECURE
+          Rock Solid Security, <br /> Well Built Networks.
         </h1>
 
         <p className={styles.subtext}>
-          Offering top of the line data and security solutions. We deliver <br />
-          reliable, trustworthy, and top of the line craftsmanship.
+          Offering end-to-end securtity, networking <br />
+          and structured cabeling solutions for businesses, offices and commercial spaces.
         </p>
 
         <div className={styles.buttons}>

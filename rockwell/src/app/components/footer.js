@@ -43,7 +43,7 @@ Providing top of the line data and security solutions across Toronto. Built on t
 <h4 className={styles.columnTitle}>Contact Us</h4>
 <ul className={styles.contactList}>
 <li>📞 <a href="tel:6478212998" className={styles.link}>647-821-2998</a></li>
-<li>✉️ <a href="mailto:info@rockwellsecurity.ca" className={styles.link}>info@rockwellsecurity.ca</a></li>
+<li>✉️ <a href="mailto:info@rockwellsecurity.ca" className={styles.link}>info@rockwellsecuritynetworks.ca</a></li>
 <li>📍 Toronto, Ontario, Canada</li>
 <li>🕐 Mon - Fri: 8:00am - 6:00pm</li>
 <li>🚨 24/7 Emergency Service</li>

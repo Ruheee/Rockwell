@@ -46,7 +46,7 @@ export default function Navbar() {
             className={`${styles.link} ${pathname === '/about' ? styles.active : ''}`}
             onClick={() => setIsOpen(false)}
           >
-            About us
+            About Us
           </Link>
         </li>
         <li>
