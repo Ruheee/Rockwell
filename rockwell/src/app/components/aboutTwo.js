@@ -18,7 +18,7 @@ export default function AboutBottom() {
 
       </div>
       <img
-          src="/Construction.png"
+          src="/IMG_6073.jpeg"
           alt="Construction site"
           className={styles.imageEdit}
         />

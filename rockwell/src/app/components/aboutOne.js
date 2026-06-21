@@ -5,7 +5,7 @@ export default function AboutTop() {
       {/* Left Image */}
       <div className={styles.leftImage}>
         <img
-          src="/about-camera.png"
+          src="/Construction.png"
           alt="Security Camera"
           className={styles.mainImage}
         />

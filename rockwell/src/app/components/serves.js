@@ -9,7 +9,7 @@ export const metadata = {
 
 const services = [
   {
-    image: "/Install.png",
+    image: "/IMG_4062.jpeg",
     alt: "Cabling infrastructure design for commercial spaces in Toronto",
     title: "Structured Cabling design and installation",
     description: "Our team creates detailed cabling layouts that include:",
