@@ -39,6 +39,21 @@
   font-weight: 600;
 }
 
+.quoteBtn {
+  background-color: #e8212a;
+  color: #fff;
+  border: none;
+  padding: 15px 28px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  width: fit-content;
+  margin-top: 24px;
+}
+
 /* ── Tablet (max 1024px) ── */
 @media (max-width: 1024px) {
   .container {

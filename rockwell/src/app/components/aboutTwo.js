@@ -24,7 +24,7 @@ export default function AboutBottom() {
           same level of care and expertise to every job — clear communication, fair pricing,
           and work that stands the test of time.
         </p>
-        <Link href="/contact" className={styles.cta}>
+        <Link href="/contact" className={styles.quoteBtn}>
           Get a Free Quote
         </Link>
       </div>

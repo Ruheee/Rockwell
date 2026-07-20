@@ -35,7 +35,7 @@ export default function ContactForm() {
         <div className={styles.heroOverlay} />
         <div className={styles.heroContent}>
           <p className={styles.heroTag}>Get In Touch</p>
-          <h1 className={styles.heroHeading}>Contact Us</h1>
+          <h2 className={styles.heroHeading}>Contact Us</h2>
         </div>
       </section>
 
