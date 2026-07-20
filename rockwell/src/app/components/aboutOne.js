@@ -20,9 +20,9 @@ export default function AboutTop() {
       {/* Right Content */}
       <div className={styles.rightContent}>
         <p className={styles.tagline}>Someone you can trust</p>
-        <h1 className={styles.heading}>
+        <h2 className={styles.heading}>
           About Rockwell Security Networks Inc.
-        </h1>
+        </h2>
         <p className={styles.paragraph}>
           Rockwell Security Networks is built on the belief that strong protection
           starts with strong relationships. We focus on delivering dependable security

@@ -9,7 +9,7 @@ export default function ComingSoon() {
         <div className={styles.overlay} />
         <div className={styles.card}>
           <p className={styles.label}>Rockwell Security</p>
-          <h1 className={styles.heading}>COMING<br />SOON</h1>
+          <h2 className={styles.heading}>COMING<br />SOON</h2>
           <div className={styles.divider} />
           <p className={styles.subtext}>
             We're working on something great.<br />

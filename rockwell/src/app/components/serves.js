@@ -101,9 +101,9 @@ export default function Services() {
 
       {/* SEO Header Section */}
       <section className={styles.header}>
-        <h1 className={styles.heading}>
+        <h2 className={styles.heading}>
           Commercial and Residential Data and Security Services
-        </h1>
+        </h2>
         <p className={styles.subtext}>
           Your business runs on reliable connectivity. Without the right cabling
           infrastructure, every system you rely on — internet, POS, security,
